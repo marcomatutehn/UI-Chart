@@ -294,19 +294,19 @@ var chart2 = Highcharts.chart('chart2', {
           "id": "February",
           "data": [
             [
-              "v58.0",
+              "Semana 1",
               1.02
             ],
             [
-              "v50.0",
+              "Semana 2",
               0.1
             ],
             [
-              "v48.0",
+              "Semana 3",
               0.31
             ],
             [
-              "v47.0",
+              "Semana 4",
               0.12
             ]
           ]
@@ -316,19 +316,19 @@ var chart2 = Highcharts.chart('chart2', {
           "id": "March",
           "data": [
             [
-              "v11.0",
+              "Semana 1",
               6.2
             ],
             [
-              "v10.0",
+              "Semana 2",
               0.29
             ],
             [
-              "v9.0",
+              "Semana 3",
               0.27
             ],
             [
-              "v8.0",
+              "Semana 4",
               0.47
             ]
           ]
@@ -338,19 +338,19 @@ var chart2 = Highcharts.chart('chart2', {
           "id": "April",
           "data": [
             [
-              "v10.0",
+              "Semana 1",
               0.36
             ],
             [
-              "v9.1",
+              "Semana 2",
               0.54
             ],
             [
-              "v9.0",
+              "Semana 3",
               0.13
             ],
             [
-              "v5.1",
+              "Semana 4",
               0.2
             ]
           ]
@@ -360,11 +360,11 @@ var chart2 = Highcharts.chart('chart2', {
           "id": "Edge",
           "data": [
             [
-              "v16",
+              "Semana 1",
               2.6
             ],
             [
-              "v15",
+              "",
               0.92
             ],
             [
