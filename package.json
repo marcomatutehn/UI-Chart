@@ -11,6 +11,10 @@
     "url": "git+https://github.com/marcomatuteunah/Chart.git"
   },
   "author": "Marco Martinez",
+  "engines": {
+    "node": "10.11.0",
+    "npm": "6.5.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marcomatuteunah/Chart/issues"
