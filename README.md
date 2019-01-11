@@ -1,6 +1,8 @@
 #SalesCharts
 Program to show chartss of sales from January to April using HighCharts API, made by Marco Martinez.
 
+Structure:
+
 ├── app,js                   <br>
 ├── package.json             <br>
 ├── public                  <br>
@@ -10,7 +12,7 @@ Program to show chartss of sales from January to April using HighCharts API, mad
 ├─────────- conf.js <br>
 ├─────────- sidebar.js <br>
 ├────── css          <br>         
-├────────── style.css <br>
+├──────── style.css <br>
 └── README.md <br>
 
 Online application deploy it on Heroku: 
