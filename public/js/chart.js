@@ -1,5 +1,5 @@
 
-// Create the chart
+// Create charts
 var chart = Highcharts.chart('chart', {
     chart: {
       type: 'column'
@@ -287,7 +287,7 @@ var chart = Highcharts.chart('chart', {
     }
   });
 
-  var chart2 = Highcharts.chart('chart2', {
+var chart2 = Highcharts.chart('chart2', {
     chart: {
       type: 'column'
     },
@@ -572,4 +572,104 @@ var chart = Highcharts.chart('chart', {
         }
       ]
     }
+  });
+
+// Modify type of chart
+  $('#plain').click(function () {
+    chart.update({
+      chart: {
+        inverted: false,
+        polar: false
+      },
+      subtitle: {
+        text: 'Plain'
+      }
+    });
+
+    chart2.update({
+        chart: {
+          inverted: false,
+          polar: false
+        },
+        subtitle: {
+          text: 'Plain'
+        }
+      });
+
+  });
+  $('#plain2').click(function () {
+    chart2.update({
+        chart: {
+          inverted: false,
+          polar: false
+        },
+        subtitle: {
+          text: 'Plain'
+        }
+      });
+
+  });
+  
+  $('#inverted').click(function () {
+    chart.update({
+      chart: {
+        inverted: true,
+        polar: false
+      },
+      subtitle: {
+        text: 'Inverted'
+      }
+    });
+    chart2.update({
+        chart: {
+          inverted: true,
+          polar: false
+        },
+        subtitle: {
+          text: 'Inverted'
+        }
+      });
+  });
+  $('#inverted2').click(function () {
+    chart2.update({
+        chart: {
+          inverted: true,
+          polar: false
+        },
+        subtitle: {
+          text: 'Inverted'
+        }
+      });
+  });
+
+  $('#polar').click(function () {
+    chart.update({
+      chart: {
+        inverted: false,
+        polar: true
+      },
+      subtitle: {
+        text: 'Polar'
+      }
+    });
+    chart2.update({
+        chart: {
+          inverted: false,
+          polar: true
+        },
+        subtitle: {
+          text: 'Polar'
+        }
+      });
+  });
+  $('#polar2').click(function () {
+    chart2.update({
+        chart: {
+          inverted: false,
+          polar: true
+        },
+        subtitle: {
+          text: 'Polar'
+        }
+      });
   });
