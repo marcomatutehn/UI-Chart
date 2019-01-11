@@ -1,7 +1,8 @@
 #SalesCharts
-Program to show chartss of sales from January to April using HighCharts API, made by Marco Martinez.
 
-Structure:
+Sitio web que muestra graficas de los reportes de ventas desde Enero hasta Abril utilizando el API HighCharts, desarrollada por Marco Martinez.
+
+Estructura del sitio web:
 
 ├── app,js                   <br>
 ├── package.json             <br>
@@ -15,7 +16,7 @@ Structure:
 ├──────── style.css <br>
 └── README.md <br>
 
-Online application deploy it on Heroku: 
+Aplicacion alojada en Heroku: 
 
 https://rocky-caverns-79168.herokuapp.com
 
