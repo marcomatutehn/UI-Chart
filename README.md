@@ -1,7 +1,7 @@
 #SalesCharts
 Program to show chartss of sales from January to April using HighCharts API, made by Marco Martinez.
 
-├── app,js                  # Server made in node.js, express framework
+├── app,js                  # Server made in node.js, express framework <br>
 ├── package.json            # settings of server and heroku deploy
 ├── public                  # Source files 
 ├────── index.html          # main page of website
