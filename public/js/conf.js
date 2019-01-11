@@ -1,3 +1,5 @@
+//Funcion para enlazar los combobox y los div que contienen los
+//graficos.
 $(function() {
     $('#categoria').change(function(){
         $('.categoria').hide();
@@ -6,13 +8,11 @@ $(function() {
 });
 
 //Definicion de las variables correspondientes para los combobox
-var opt_1 = new Array ("-", "Pantalones", "Camisas");
+var opt_pantalones = new Array ("-", "Skinny", "Slim");
+var opt_camisas = new Array ("-", "Polo", "Casual");
 
-var opt_2 = new Array ("-", "Skinny", "Slim");
-var opt_3 = new Array ("-", "Polo", "Casual");
-
-var opt_4 = new Array ("-", "Pepe", "Aca-Joe");
-var opt_5 = new Array ("-", "Tomy", "Zara");
+var opt_marcas1 = new Array ("-", "Pepe", "Aca-Joe");
+var opt_marcas2 = new Array ("-", "Tomy", "Zara");
 
 function cambia(){
     var cosa;

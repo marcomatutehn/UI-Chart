@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sales Charts</title>
+    <title>Document</title>
 
     <!-- HighCharts library -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -17,29 +17,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
 </head>
 <body>
-    <!---------- Dropbox para ver las ventas de un producto por los meses definidos ---------->
-    <form name="formulario1" action="#">
-        <label>Category: </label>
-        <select id="categoria" class="seleccion" name="cosa" onchange="cambia()">
-            <option value="0">Seleccione</option>
-            <option value="pantalones">Pantalones</option>
-            <option value="camisas">Camisas</option>
-        </select>
-        
-        <label>Product: </label>
-        <select class="seleccion" name="opt">
-            <option value="-">-</option>
-        </select>  
+    <!---------- Dropbox para ver las opciones del PRIMER elemento ---------->
+    <!-- Opciones del primer contenedor-->
+    <label>Category: </label>
+    <Select id="categoria">
+        <option value="pantalones">Pantalones</option>
+        <option value="camisas">Camisas</option>
+    </Select>
+    <!-- Opciones del segundo contenedor-->
+    <label>Product: </label>
+    <Select id="product">
+        <option value="pantalones">Skinny</option>
+        <option value="camisas">Slim</option>
+    </Select>
+    <!-- Opciones del tercer contenedor-->
+    <label>Brand: </label>
+    <Select id="brand">
+        <option value="pantalones">Pepe Jeans</option>
+        <option value="camisas">Aca Joe</option>
+    </Select>
 
-        <label>Brand: </label>
-        <select class="seleccion" name="opt2">
-            <option value="-">-</option>
-        </select>
-    </form>
-    <br>
+
+    <!---------- Dropbox para ver las opciones del SEGUNDO elemento ---------->
+    <!-- Opciones del primer contenedor-->
+    <label>Category: </label>
+    <Select id="categoria">
+        <option value="pantalones">Pantalones</option>
+        <option value="camisas">Camisas</option>
+    </Select>
+    <!-- Opciones del segundo contenedor-->
+    <label>Product: </label>
+    <Select id="product">
+        <option value="pantalones">Skinny</option>
+        <option value="camisas">Slim</option>
+    </Select>
+    <!-- Opciones del tercer contenedor-->
+    <label>Brand: </label>
+    <Select id="brand">
+        <option value="pantalones">Pepe Jeans</option>
+        <option value="camisas">Aca Joe</option>
+    </Select>
+
 
     <!----------- Contenedores de los graficos ---------->
-    <div id="pantalones" class="categoria" > 
+    <div id="pantalones" class="categoria"> 
         <!-- chart container 1-->
         <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div> 
         <button id="plain">Plain</button>
