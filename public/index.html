@@ -8,17 +8,17 @@
 
     <!-- HighCharts library -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
-
     <script src="https://code.highcharts.com/modules/drilldown.js"></script>
     <script src="https://code.highcharts.com/modules/data.js"></script>
 
+    <!-- Estilos personalizados library -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
 </head>
 <body>
     
-    <!-- Nav Bar -->
+    <!-----------    Nav Bar      ---------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -38,23 +38,18 @@
         </div>
     </nav>
 
-    <!-- Content Dropbox -->
+    <!----------- Content Dropbox ---------->
     <div class="container">
-        <!---------- Dropbox para ver las ventas de un producto por los meses definidos ---------->
+        <!---------- Formulario para seleccionar el producto, categoria y marca ---------->
         <div class="row">
-            <div class="col-lg-2">
-
-            </div>
+            <div class="col-lg-2"> </div>
             <div class="col-lg-8 ">
                 <h1 class="form-inline justify-content-center">Choose an option</h1>
             </div>
-            <div class="col-lg-2">
-
-            </div>
-    </div>
+            <div class="col-lg-2"></div>
+        </div>
         <div class="row contenedorPrincipal">
-            <div class="col-lg-2">   
-            </div>
+            <div class="col-lg-2"> </div>
             <div class="col-lg-8">
                 <form name="formulario1" action="#" class="form-inline justify-content-center">
                     <label class="my-1 mr-2">Category: </label>
@@ -76,13 +71,13 @@
                 </form>
                 <br>
             </div>
-            <div class="col-lg-2">  
-            </div>
+            <div class="col-lg-2"> </div>
         </div>
-        <!----------- Contenedores de los graficos ---------->
+        <!----------- Contenedores de los graficos creados  ------------------------------>
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
+                <!--- Categorias  ---->
                 <div id="pantalones" class="categoria" style="display:none" > 
                     <!-- chart container 1-->
                     <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div> 
@@ -98,7 +93,7 @@
                     <button id="inverted2" class="btn btn-secondary">Inverted</button>
                     <button id="polar2" class="btn btn-secondary">Polar</button>
                 </div>
-
+                <!--- Productos  ---->
                 <div id="skinny" class="producto" style="display:none" > 
                         <!-- chart container 1-->
                         <div id="chart3" style="min-width: 310px; height: 400px; margin: 0 auto"></div> 
@@ -119,7 +114,7 @@
         </div>
     </div>
     
-    <!----------- footer  ---------->
+    <!-----------      footer     ---------->
     <footer class="footer">
         <div class="container">
             <span class="text-mute">Category, company and brand 2018.</span>
