@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sales Charts</title>
+    <title>Sales Report</title>
 
     <!-- HighCharts library -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -29,7 +29,8 @@
         </div>
         <span class="navbar-toggler-icon" style="margin-right: 20px;font-size:30px;cursor:pointer" onclick="openNav()"></span>
         <a class="navbar-brand justify-content-start" href="#">
-              Sales Charts
+                <img src="/img/user.png" width="30" height="30" class="d-inline-block align-top" alt=""> 
+            Marco -  Sales Report
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -44,7 +45,7 @@
         <div class="row">
             <div class="col-lg-2"> </div>
             <div class="col-lg-8 ">
-                <h1 class="form-inline justify-content-center">Choose an option</h1>
+                <h1 class="form-inline justify-content-center">Sales Report</h1>
             </div>
             <div class="col-lg-2"></div>
         </div>
@@ -80,16 +81,13 @@
                 <!--- Categorias  ---->
                 <div id="pantalones" class="categoria" style="display:none" > 
                     <!-- chart container 1-->
-                    <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto" class="form-inline justify-content-center"></div> 
-                    
-                    <button id="plain" class="btn btn-secondary">Plain</button>
+                    <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto" class="form-inline justify-content-center"></div>             
                     <button id="inverted" class="btn btn-secondary">Inverted</button>
-                    <button id="polar" class="btn btn-secondary">Polar</button>
+                    <button id="pie" class="btn btn-secondary">Pie</button>
                 </div>
                 <div id="camisas" class="categoria" style="display:none">
                     <!-- chart container 1-->
                     <div id="chart2" style="min-width: 310px; height: 400px; margin: 0 auto" class="form-inline justify-content-center"></div> 
-                    <button id="plain2" class="btn btn-secondary">Plain</button>
                     <button id="inverted2" class="btn btn-secondary">Inverted</button>
                     <button id="polar2" class="btn btn-secondary">Polar</button>
                 </div>
@@ -126,8 +124,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <!-- Scripts  -->
-<script src="js/conf.js"></script> 
 <script src="js/chart.js"></script>
+<script src="js/conf.js"></script> 
 <script src="js/sidebar.js"></script>
 </body>
 </html>
