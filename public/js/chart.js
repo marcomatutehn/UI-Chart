@@ -46,22 +46,22 @@ var chart = Highcharts.chart('chart', {
           {
             "name": "January",
             "y": 700,
-            "drilldown": "Chrome"
+            "drilldown": "January"
           },
           {
             "name": "February",
             "y": 800,
-            "drilldown": "Firefox"
+            "drilldown": "February"
           },
           {
             "name": "March",
             "y": 200,
-            "drilldown": "Internet Explorer"
+            "drilldown": "March"
           },
           {
             "name": "April",
             "y": 350,
-            "drilldown": "Safari"
+            "drilldown": "April"
           }
         ]
       }
@@ -69,65 +69,9 @@ var chart = Highcharts.chart('chart', {
     "drilldown": {
       "series": [
         {
-          "name": "Chrome",
-          "id": "Chrome",
+          "name": "January",
+          "id": "January",
           "data": [
-            [
-              "v65.0",
-              0.1
-            ],
-            [
-              "v64.0",
-              1.3
-            ],
-            [
-              "v63.0",
-              53.02
-            ],
-            [
-              "v62.0",
-              1.4
-            ],
-            [
-              "v61.0",
-              0.88
-            ],
-            [
-              "v60.0",
-              0.56
-            ],
-            [
-              "v59.0",
-              0.45
-            ],
-            [
-              "v58.0",
-              0.49
-            ],
-            [
-              "v57.0",
-              0.32
-            ],
-            [
-              "v56.0",
-              0.29
-            ],
-            [
-              "v55.0",
-              0.79
-            ],
-            [
-              "v54.0",
-              0.18
-            ],
-            [
-              "v51.0",
-              0.13
-            ],
-            [
-              "v49.0",
-              2.16
-            ],
             [
               "v48.0",
               0.13
@@ -147,32 +91,13 @@ var chart = Highcharts.chart('chart', {
           ]
         },
         {
-          "name": "Firefox",
-          "id": "Firefox",
+          "name": "February",
+          "id": "February",
           "data": [
-            [
-              "v58.0",
-              1.02
-            ],
-            [
-              "v57.0",
-              7.36
-            ],
-            [
-              "v56.0",
-              0.35
-            ],
-            [
-              "v55.0",
-              0.11
-            ],
+            
             [
               "v54.0",
               0.1
-            ],
-            [
-              "v52.0",
-              0.95
             ],
             [
               "v51.0",
@@ -185,16 +110,12 @@ var chart = Highcharts.chart('chart', {
             [
               "v48.0",
               0.31
-            ],
-            [
-              "v47.0",
-              0.12
             ]
           ]
         },
         {
-          "name": "Internet Explorer",
-          "id": "Internet Explorer",
+          "name": "March",
+          "id": "March",
           "data": [
             [
               "v11.0",
@@ -215,17 +136,9 @@ var chart = Highcharts.chart('chart', {
           ]
         },
         {
-          "name": "Safari",
-          "id": "Safari",
+          "name": "April",
+          "id": "April",
           "data": [
-            [
-              "v11.0",
-              3.39
-            ],
-            [
-              "v10.1",
-              0.96
-            ],
             [
               "v10.0",
               0.36
@@ -299,11 +212,11 @@ var chart2 = Highcharts.chart('chart2', {
       text: 'Sales by Month'
     },
     xAxis: {
-      type: 'category'
+      type: 'Category'
     },
     yAxis: {
       title: {
-        text: 'Ventas'
+        text: 'Sales'
       }
   
     },
@@ -333,22 +246,22 @@ var chart2 = Highcharts.chart('chart2', {
           {
             "name": "January",
             "y": 200,
-            "drilldown": "Chrome"
+            "drilldown": "January"
           },
           {
             "name": "February",
             "y": 300,
-            "drilldown": "Firefox"
+            "drilldown": "February"
           },
           {
             "name": "March",
             "y": 900,
-            "drilldown": "Internet Explorer"
+            "drilldown": "March"
           },
           {
             "name": "April",
             "y": 350,
-            "drilldown": "Safari"
+            "drilldown": "April"
           }
         ]
       }
@@ -356,36 +269,12 @@ var chart2 = Highcharts.chart('chart2', {
     "drilldown": {
       "series": [
         {
-          "name": "Chrome",
-          "id": "Chrome",
+          "name": "January",
+          "id": "January",
           "data": [
-            [
-              "v65.0",
-              0.1
-            ],
-            [
-              "v64.0",
-              1.3
-            ],
-            [
-              "v63.0",
-              53.02
-            ],
-            [
-              "v62.0",
-              1.4
-            ],
             [
               "v61.0",
               0.88
-            ],
-            [
-              "v60.0",
-              0.56
-            ],
-            [
-              "v59.0",
-              0.45
             ],
             [
               "v58.0",
@@ -398,72 +287,16 @@ var chart2 = Highcharts.chart('chart2', {
             [
               "v56.0",
               0.29
-            ],
-            [
-              "v55.0",
-              0.79
-            ],
-            [
-              "v54.0",
-              0.18
-            ],
-            [
-              "v51.0",
-              0.13
-            ],
-            [
-              "v49.0",
-              2.16
-            ],
-            [
-              "v48.0",
-              0.13
-            ],
-            [
-              "v47.0",
-              0.11
-            ],
-            [
-              "v43.0",
-              0.17
-            ],
-            [
-              "v29.0",
-              0.26
             ]
           ]
         },
         {
-          "name": "Firefox",
-          "id": "Firefox",
+          "name": "February",
+          "id": "February",
           "data": [
             [
               "v58.0",
               1.02
-            ],
-            [
-              "v57.0",
-              7.36
-            ],
-            [
-              "v56.0",
-              0.35
-            ],
-            [
-              "v55.0",
-              0.11
-            ],
-            [
-              "v54.0",
-              0.1
-            ],
-            [
-              "v52.0",
-              0.95
-            ],
-            [
-              "v51.0",
-              0.15
             ],
             [
               "v50.0",
@@ -480,8 +313,8 @@ var chart2 = Highcharts.chart('chart2', {
           ]
         },
         {
-          "name": "Internet Explorer",
-          "id": "Internet Explorer",
+          "name": "March",
+          "id": "March",
           "data": [
             [
               "v11.0",
@@ -502,17 +335,9 @@ var chart2 = Highcharts.chart('chart2', {
           ]
         },
         {
-          "name": "Safari",
-          "id": "Safari",
+          "name": "April",
+          "id": "April",
           "data": [
-            [
-              "v11.0",
-              3.39
-            ],
-            [
-              "v10.1",
-              0.96
-            ],
             [
               "v10.0",
               0.36
@@ -621,22 +446,22 @@ var chart3 = Highcharts.chart('chart', {
           {
             "name": "January",
             "y": 450,
-            "drilldown": "Chrome"
+            "drilldown": "January"
           },
           {
             "name": "February",
             "y": 200,
-            "drilldown": "Firefox"
+            "drilldown": "February"
           },
           {
             "name": "March",
             "y": 100,
-            "drilldown": "Internet Explorer"
+            "drilldown": "March"
           },
           {
             "name": "April",
             "y": 250,
-            "drilldown": "Safari"
+            "drilldown": "April"
           }
         ]
       }
@@ -644,8 +469,8 @@ var chart3 = Highcharts.chart('chart', {
     "drilldown": {
       "series": [
         {
-          "name": "Chrome",
-          "id": "Chrome",
+          "name": "January",
+          "id": "January",
           "data": [
             [
               "v65.0",
@@ -722,8 +547,8 @@ var chart3 = Highcharts.chart('chart', {
           ]
         },
         {
-          "name": "Firefox",
-          "id": "Firefox",
+          "name": "February",
+          "id": "February",
           "data": [
             [
               "v58.0",
@@ -768,8 +593,8 @@ var chart3 = Highcharts.chart('chart', {
           ]
         },
         {
-          "name": "Internet Explorer",
-          "id": "Internet Explorer",
+          "name": "March",
+          "id": "March",
           "data": [
             [
               "v11.0",
@@ -790,8 +615,8 @@ var chart3 = Highcharts.chart('chart', {
           ]
         },
         {
-          "name": "Safari",
-          "id": "Safari",
+          "name": "April",
+          "id": "April",
           "data": [
             [
               "v11.0",
@@ -908,22 +733,22 @@ var chart4 = Highcharts.chart('chart2', {
           {
             "name": "January",
             "y": 600,
-            "drilldown": "Chrome"
+            "drilldown": "January"
           },
           {
             "name": "February",
             "y": 400,
-            "drilldown": "Firefox"
+            "drilldown": "February"
           },
           {
             "name": "March",
             "y": 250,
-            "drilldown": "Internet Explorer"
+            "drilldown": "March"
           },
           {
             "name": "April",
             "y": 400,
-            "drilldown": "Safari"
+            "drilldown": "April"
           }
         ]
       }
@@ -931,8 +756,8 @@ var chart4 = Highcharts.chart('chart2', {
     "drilldown": {
       "series": [
         {
-          "name": "Chrome",
-          "id": "Chrome",
+          "name": "January",
+          "id": "January",
           "data": [
             [
               "v65.0",
@@ -1009,8 +834,8 @@ var chart4 = Highcharts.chart('chart2', {
           ]
         },
         {
-          "name": "Firefox",
-          "id": "Firefox",
+          "name": "February",
+          "id": "February",
           "data": [
             [
               "v58.0",
@@ -1055,8 +880,8 @@ var chart4 = Highcharts.chart('chart2', {
           ]
         },
         {
-          "name": "Internet Explorer",
-          "id": "Internet Explorer",
+          "name": "March",
+          "id": "March",
           "data": [
             [
               "v11.0",
@@ -1077,8 +902,8 @@ var chart4 = Highcharts.chart('chart2', {
           ]
         },
         {
-          "name": "Safari",
-          "id": "Safari",
+          "name": "April",
+          "id": "April",
           "data": [
             [
               "v11.0",
