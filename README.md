@@ -1,4 +1,4 @@
-#SalesCharts
+# SalesCharts
 
 Sitio web que muestra graficas de los reportes de ventas desde Enero hasta Abril utilizando el API HighCharts, desarrollada por Marco Martinez.
 
